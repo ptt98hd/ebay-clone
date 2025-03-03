@@ -1,0 +1,82 @@
+{
+	"categories": [
+		{
+			"id": 1,
+			"name": "Motors",
+			"parent_id": null,
+			"image": "https://ir.ebaystatic.com/cr/v/c01/03_PopularDestination_Tire.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Collectible & Art",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/F0AAAOSwLdJcyzuT/s-l225.png"
+		},
+		{
+			"id": 3,
+			"name": "Clothing, Shoes & Accessories",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/ptAAAOSwhWpc~--F/s-l225.png"
+		},
+		{
+			"id": 4,
+			"name": "Sporting Goods",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/fpgAAOSw5KVc~--S/s-l225.png"
+		},
+		{
+			"id": 5,
+			"name": "Electronic",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/~NUAAOSwihxc~-57/s-l225.png"
+		},
+		{
+			"id": 6,
+			"name": "Toys & Hobbies",
+			"parent_id": null,
+			"image": "https://ir.ebaystatic.com/cr/v/c01/07_PopularDestination_Toys.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Home & Garden",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/8DQAAOSwvCZc3Ixq/s-l225.png"
+		},
+		{
+			"id": 8,
+			"name": "Jewelry & Watches",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/m6IAAOSwdvRc3Ixf/s-l225.png"
+		},
+		{
+			"id": 9,
+			"name": "Books, Movies & Music",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/CDUAAOSw4QRcyzxJ/s-l225.png"
+		},
+		{
+			"id": 10,
+			"name": "Health & Beauty",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/8MYAAOSwZ79cyzuw/s-l225.png"
+		},
+		{
+			"id": 11,
+			"name": "Bussiness & Industrial",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/NvsAAOSwhkJc~-8R/s-l225.png"
+		},
+		{
+			"id": 12,
+			"name": "Baby Essentials",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/images/g/IC4AAOSwvgVe7xmT/s-l640.jpg"
+		},
+		{
+			"id": 13,
+			"name": "Pet Suppliers",
+			"parent_id": null,
+			"image": "https://i.ebayimg.com/00/s/MzMxWDUwMA==/z/sSEAAOSwDiBZJXh9/$_57.JPG"
+		}
+	]
+}
