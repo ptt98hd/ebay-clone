@@ -1,12 +1,60 @@
-# React + Vite
+# EBay Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend clone of ebay website using React.
 
-Currently, two official plugins are available:
+## Requirement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. NodeJS & NPM
 
-## Expanding the ESLint configuration
+- `NodeJS` is use to run application server & `NPM` is use to manage application dependencies.
+- If you are not install `NodeJS` & `NPM` go to this [website](https://nodejs.org/en) to download and install them.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. JSON Server install at global
+
+`json-server` is use to run some dummy data.
+
+If you are not install it, paste following command to your `terminal` and run it.
+
+```sh
+npm install -g json-server
+```
+
+## Getting started
+
+Following these steps to run this project locally.
+
+### 1. Clone this repository
+
+Open your `terminal` application and paste command below to clone this repository to your local machine.
+
+```sh
+git clone https://github.com/ptt98hd/ebay-clone.git
+```
+
+### 2. `cd` to project directory
+
+```sh
+cd ebay-clone
+```
+
+### 3. Install dependencies
+
+```sh
+npm install
+```
+
+### 4. Run `json-server` & application
+
+You need to use to separate terminal tabs to run this application: 1 for `json-server` and 1 for this application.
+
+- Run JSON Server
+
+```sh
+npm run server
+```
+
+- Run Application
+
+```sh
+npm run dev
+```
