@@ -4,16 +4,16 @@ A frontend clone of ebay website using React.
 
 ## Requirement
 
-1. NodeJS & NPM
+1. **`NodeJS` & `NPM`**
 
 - `NodeJS` is use to run application server & `NPM` is use to manage application dependencies.
 - If you are not install `NodeJS` & `NPM` go to this [website](https://nodejs.org/en) to download and install them.
 
-2. JSON Server install at global
+2. **`json-server` install at global**
 
-`json-server` is use to run some dummy data.
+- `json-server` is use to run some dummy data.
 
-If you are not install it, paste following command to your `terminal` and run it.
+- If you are not install it, paste following command to your `terminal` and run it.
 
 ```sh
 npm install -g json-server
@@ -45,15 +45,15 @@ npm install
 
 ### 4. Run `json-server` & application
 
-You need to use to separate terminal tabs to run this application: 1 for `json-server` and 1 for this application.
+You need to use 2 separate terminal tabs to run this application:
 
-- Run JSON Server
+- Tab 1: `json-server`
 
 ```sh
 npm run server
 ```
 
-- Run Application
+- Tab 2: Application
 
 ```sh
 npm run dev
