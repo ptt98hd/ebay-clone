@@ -3,8 +3,10 @@
 A frontend clone of **eBay** website using React.
 
 <div align="center" style="padding: 1rem; background-color: white;">
-  <img src="public/ebay.svg" alt="eBay Logo" style="width: 100%;">
-</div>
+  <a href="https://www.ebay.com/" target="_blank">
+    <img src="public/ebay.svg" alt="eBay Logo" style="width: 100%;">
+  </a>
+</div>a
 
 ## Requirement
 
