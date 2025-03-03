@@ -1,9 +1,9 @@
 # EBay Clone
 
-A frontend clone of ebay website using React.
+A frontend clone of **eBay** website using React.
 
-<div align="center">
-  <img src="public/ebay.jpg" alt="eBay Logo" style="width: 100%;">
+<div align="center" style="padding: 1rem; background-color: white;">
+  <img src="public/ebay.svg" alt="eBay Logo" style="width: 100%;">
 </div>
 
 ## Requirement
