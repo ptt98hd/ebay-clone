@@ -2,7 +2,9 @@
 
 A frontend clone of ebay website using React.
 
-![eBay Logo](public/ebay.jpg)
+<div align="center">
+  <img src="public/ebay.jpg" alt="eBay Logo" style="width: 100%;">
+</div>
 
 ## Requirement
 
