@@ -2,6 +2,8 @@
 
 A frontend clone of ebay website using React.
 
+![eBay Logo](public/ebay.jpg)
+
 ## Requirement
 
 1. **`NodeJS` & `NPM`**
