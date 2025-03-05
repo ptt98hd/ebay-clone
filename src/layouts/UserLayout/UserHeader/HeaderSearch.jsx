@@ -15,7 +15,7 @@ function HeaderSearch() {
 						style={{ height: '3rem' }}
 					/>
 				</a>
-				<div className='dropdown me-3'>
+				<div className='dropdown me-3 d-none d-lg-block'>
 					<a
 						role='button'
 						className='dropdown-toggle text-start text-dark text-decoration-none'
@@ -24,9 +24,27 @@ function HeaderSearch() {
 					>
 						Shop by <br /> category
 					</a>
-					<ul className='dropdown-menu dropdown-menu-start mt-3'>
-						<li className='dropdown-item'>Category</li>
-					</ul>
+					<div
+						className='dropdown-menu dropup-center mt-3 p-3 shadow link-underline-opacity-25-hover'
+						style={{ width: '63rem' }}
+					>
+						<div className='row row-cols-4 gy-3 gx-4'>
+							{categories.map((category) => {
+								return (
+									<div className='col' key={category.id}>
+										<h6>{category.name}</h6>
+										{category.children.map((item) => {
+											return (
+												<p key={item.id} className='text-nowrap text-truncate'>
+													{item.name}
+												</p>
+											);
+										})}
+									</div>
+								);
+							})}
+						</div>
+					</div>
 				</div>
 				<div className='input-group'>
 					<div className='input-group-text rounded-start-pill px-4'>
