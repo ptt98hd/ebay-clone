@@ -4,79 +4,175 @@
 			"id": 1,
 			"name": "Motors",
 			"parent_id": null,
-			"image": "https://ir.ebaystatic.com/cr/v/c01/03_PopularDestination_Tire.jpg"
+			"image": "https://i.ebayimg.com/images/g/tWIAAOSwjPJc~-7f/s-l225.png",
+			"children": [
+				{ "id": 101, "name": "Parts & accessories", "parent_id": 1 },
+				{ "id": 102, "name": "Cars & trucks", "parent_id": 1 },
+				{ "id": 103, "name": "Motorcycles", "parent_id": 1 },
+				{ "id": 104, "name": "Other vehicles", "parent_id": 1 }
+			]
 		},
 		{
 			"id": 2,
 			"name": "Collectible & Art",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/F0AAAOSwLdJcyzuT/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/F0AAAOSwLdJcyzuT/s-l225.png",
+			"children": [
+				{ "id": 201, "name": "Trading Cards", "parent_id": 2 },
+				{ "id": 202, "name": "Collectibles", "parent_id": 2 },
+				{ "id": 203, "name": "Coins & Paper Money", "parent_id": 2 },
+				{ "id": 204, "name": "Sports Memorabilia", "parent_id": 2 }
+			]
 		},
 		{
 			"id": 3,
 			"name": "Clothing, Shoes & Accessories",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/ptAAAOSwhWpc~--F/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/ptAAAOSwhWpc~--F/s-l225.png",
+			"children": [
+				{ "id": 301, "name": "Women", "parent_id": 3 },
+				{ "id": 302, "name": "Men", "parent_id": 3 },
+				{ "id": 303, "name": "Handbags", "parent_id": 3 },
+				{ "id": 304, "name": "Collectible Sneakers", "parent_id": 3 }
+			]
 		},
 		{
 			"id": 4,
 			"name": "Sporting Goods",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/fpgAAOSw5KVc~--S/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/fpgAAOSw5KVc~--S/s-l225.png",
+			"children": [
+				{ "id": 401, "name": "Hunting Equipment", "parent_id": 4 },
+				{ "id": 402, "name": "Golf Equipment", "parent_id": 4 },
+				{ "id": 403, "name": "Outdoor sports", "parent_id": 4 },
+				{ "id": 404, "name": "Cycling Equipment", "parent_id": 4 }
+			]
 		},
 		{
 			"id": 5,
 			"name": "Electronic",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/~NUAAOSwihxc~-57/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/~NUAAOSwihxc~-57/s-l225.png",
+			"children": [
+				{
+					"id": 501,
+					"name": "Computers, Tablets & Network Hardware",
+					"parent_id": 5
+				},
+				{
+					"id": 502,
+					"name": "Cell Phones, Smart Watches & Accessories",
+					"parent_id": 5
+				},
+				{ "id": 503, "name": "Video Games & Consoles", "parent_id": 5 },
+				{ "id": 504, "name": "Cameras & Photo", "parent_id": 5 }
+			]
 		},
 		{
 			"id": 6,
 			"name": "Toys & Hobbies",
 			"parent_id": null,
-			"image": "https://ir.ebaystatic.com/cr/v/c01/07_PopularDestination_Toys.jpg"
+			"image": "https://i.ebayimg.com/images/g/51kAAOSw8M1cyztI/s-l225.png",
+			"children": []
 		},
 		{
 			"id": 7,
 			"name": "Home & Garden",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/8DQAAOSwvCZc3Ixq/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/8DQAAOSwvCZc3Ixq/s-l225.png",
+			"children": [
+				{
+					"id": 701,
+					"name": "Yard, Garden & Outdoor Living Items",
+					"parent_id": 7
+				},
+				{ "id": 702, "name": "Tools & Workshop Equipment", "parent_id": 7 },
+				{ "id": 703, "name": "Home Improvement", "parent_id": 7 },
+				{ "id": 704, "name": "Kitchen, Dining & Bar Supplies", "parent_id": 7 }
+			]
 		},
 		{
 			"id": 8,
 			"name": "Jewelry & Watches",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/m6IAAOSwdvRc3Ixf/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/m6IAAOSwdvRc3Ixf/s-l225.png",
+			"children": [
+				{ "id": 801, "name": "Luxury Watches", "parent_id": 8 },
+				{ "id": 802, "name": "Wristwatches", "parent_id": 8 },
+				{ "id": 803, "name": "Fashion Jewelry", "parent_id": 8 },
+				{ "id": 804, "name": "Fine Jewelry", "parent_id": 8 }
+			]
 		},
 		{
 			"id": 9,
 			"name": "Books, Movies & Music",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/CDUAAOSw4QRcyzxJ/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/CDUAAOSw4QRcyzxJ/s-l225.png",
+			"children": []
 		},
 		{
 			"id": 10,
 			"name": "Health & Beauty",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/8MYAAOSwZ79cyzuw/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/8MYAAOSwZ79cyzuw/s-l225.png",
+			"children": []
 		},
 		{
 			"id": 11,
 			"name": "Bussiness & Industrial",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/NvsAAOSwhkJc~-8R/s-l225.png"
+			"image": "https://i.ebayimg.com/images/g/NvsAAOSwhkJc~-8R/s-l225.png",
+			"children": [
+				{
+					"id": 1101,
+					"name": "Modular & Pre-Fabricated Buildings",
+					"parent_id": 11
+				},
+				{
+					"id": 1102,
+					"name": "Test, Measurement & Inspection Equipment",
+					"parent_id": 11
+				},
+				{
+					"id": 1103,
+					"name": "Heavy Equipment, Parts & Attachments",
+					"parent_id": 11
+				},
+				{ "id": 1104, "name": "Restaurant & Food Service", "parent_id": 11 }
+			]
 		},
 		{
 			"id": 12,
 			"name": "Baby Essentials",
 			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/IC4AAOSwvgVe7xmT/s-l640.jpg"
+			"image": "https://i.ebayimg.com/images/g/y~QAAOSwMWpc3IyN/s-l225.png",
+			"children": []
+		}
+	],
+	"banners": [
+		{
+			"id": 1,
+			"title": "Get your order or your money back",
+			"content": "Shop confidently with eBay Money Back Guarantee.",
+			"action": "Learn more",
+			"url": "/",
+			"image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
 		},
 		{
-			"id": 13,
-			"name": "Pet Suppliers",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/00/s/MzMxWDUwMA==/z/sSEAAOSwDiBZJXh9/$_57.JPG"
+			"id": 2,
+			"title": "Get your order or your money back",
+			"content": "Shop confidently with eBay Money Back Guarantee.",
+			"action": "Learn more",
+			"url": "/",
+			"image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
+		},
+		{
+			"id": 3,
+			"title": "Get your order or your money back",
+			"content": "Shop confidently with eBay Money Back Guarantee.",
+			"action": "Learn more",
+			"url": "/",
+			"image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
 		}
 	]
 }
