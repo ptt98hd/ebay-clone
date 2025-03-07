@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import UserLayout from '../layouts/UserLayout';
 
 import UserHomePage from '../pages/userPages/UserHomePage';
+import Error404 from '../pages/errorPages/Error404';
 
 const router = createBrowserRouter([
 	{
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
 			{
 				index: true,
 				element: <UserHomePage />,
+			},
+			{
+				path: '*',
+				element: <Error404 />,
 			},
 		],
 	},
