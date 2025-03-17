@@ -1,10 +1,10 @@
-import api from './api';
+import { fetcher } from "./";
 
 const bannerService = {
-	getBanners: async () => {
-		const response = await api.get('/banners');
-		return response.data;
-	},
+  getBanners: async () => {
+    const response = await fetcher.get("/banners");
+    return response.data;
+  },
 };
 
 export default bannerService;
