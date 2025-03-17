@@ -1,178 +1,301 @@
 {
-	"categories": [
-		{
-			"id": 1,
-			"name": "Motors",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/tWIAAOSwjPJc~-7f/s-l225.png",
-			"children": [
-				{ "id": 101, "name": "Parts & accessories", "parent_id": 1 },
-				{ "id": 102, "name": "Cars & trucks", "parent_id": 1 },
-				{ "id": 103, "name": "Motorcycles", "parent_id": 1 },
-				{ "id": 104, "name": "Other vehicles", "parent_id": 1 }
-			]
-		},
-		{
-			"id": 2,
-			"name": "Collectible & Art",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/F0AAAOSwLdJcyzuT/s-l225.png",
-			"children": [
-				{ "id": 201, "name": "Trading Cards", "parent_id": 2 },
-				{ "id": 202, "name": "Collectibles", "parent_id": 2 },
-				{ "id": 203, "name": "Coins & Paper Money", "parent_id": 2 },
-				{ "id": 204, "name": "Sports Memorabilia", "parent_id": 2 }
-			]
-		},
-		{
-			"id": 3,
-			"name": "Clothing, Shoes & Accessories",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/ptAAAOSwhWpc~--F/s-l225.png",
-			"children": [
-				{ "id": 301, "name": "Women", "parent_id": 3 },
-				{ "id": 302, "name": "Men", "parent_id": 3 },
-				{ "id": 303, "name": "Handbags", "parent_id": 3 },
-				{ "id": 304, "name": "Collectible Sneakers", "parent_id": 3 }
-			]
-		},
-		{
-			"id": 4,
-			"name": "Sporting Goods",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/fpgAAOSw5KVc~--S/s-l225.png",
-			"children": [
-				{ "id": 401, "name": "Hunting Equipment", "parent_id": 4 },
-				{ "id": 402, "name": "Golf Equipment", "parent_id": 4 },
-				{ "id": 403, "name": "Outdoor sports", "parent_id": 4 },
-				{ "id": 404, "name": "Cycling Equipment", "parent_id": 4 }
-			]
-		},
-		{
-			"id": 5,
-			"name": "Electronic",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/~NUAAOSwihxc~-57/s-l225.png",
-			"children": [
-				{
-					"id": 501,
-					"name": "Computers, Tablets & Network Hardware",
-					"parent_id": 5
-				},
-				{
-					"id": 502,
-					"name": "Cell Phones, Smart Watches & Accessories",
-					"parent_id": 5
-				},
-				{ "id": 503, "name": "Video Games & Consoles", "parent_id": 5 },
-				{ "id": 504, "name": "Cameras & Photo", "parent_id": 5 }
-			]
-		},
-		{
-			"id": 6,
-			"name": "Toys & Hobbies",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/51kAAOSw8M1cyztI/s-l225.png",
-			"children": []
-		},
-		{
-			"id": 7,
-			"name": "Home & Garden",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/8DQAAOSwvCZc3Ixq/s-l225.png",
-			"children": [
-				{
-					"id": 701,
-					"name": "Yard, Garden & Outdoor Living Items",
-					"parent_id": 7
-				},
-				{ "id": 702, "name": "Tools & Workshop Equipment", "parent_id": 7 },
-				{ "id": 703, "name": "Home Improvement", "parent_id": 7 },
-				{ "id": 704, "name": "Kitchen, Dining & Bar Supplies", "parent_id": 7 }
-			]
-		},
-		{
-			"id": 8,
-			"name": "Jewelry & Watches",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/m6IAAOSwdvRc3Ixf/s-l225.png",
-			"children": [
-				{ "id": 801, "name": "Luxury Watches", "parent_id": 8 },
-				{ "id": 802, "name": "Wristwatches", "parent_id": 8 },
-				{ "id": 803, "name": "Fashion Jewelry", "parent_id": 8 },
-				{ "id": 804, "name": "Fine Jewelry", "parent_id": 8 }
-			]
-		},
-		{
-			"id": 9,
-			"name": "Books, Movies & Music",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/CDUAAOSw4QRcyzxJ/s-l225.png",
-			"children": []
-		},
-		{
-			"id": 10,
-			"name": "Health & Beauty",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/8MYAAOSwZ79cyzuw/s-l225.png",
-			"children": []
-		},
-		{
-			"id": 11,
-			"name": "Bussiness & Industrial",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/NvsAAOSwhkJc~-8R/s-l225.png",
-			"children": [
-				{
-					"id": 1101,
-					"name": "Modular & Pre-Fabricated Buildings",
-					"parent_id": 11
-				},
-				{
-					"id": 1102,
-					"name": "Test, Measurement & Inspection Equipment",
-					"parent_id": 11
-				},
-				{
-					"id": 1103,
-					"name": "Heavy Equipment, Parts & Attachments",
-					"parent_id": 11
-				},
-				{ "id": 1104, "name": "Restaurant & Food Service", "parent_id": 11 }
-			]
-		},
-		{
-			"id": 12,
-			"name": "Baby Essentials",
-			"parent_id": null,
-			"image": "https://i.ebayimg.com/images/g/y~QAAOSwMWpc3IyN/s-l225.png",
-			"children": []
-		}
-	],
-	"banners": [
-		{
-			"id": 1,
-			"title": "Get your order or your money back",
-			"content": "Shop confidently with eBay Money Back Guarantee.",
-			"action": "Learn more",
-			"url": "/",
-			"image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
-		},
-		{
-			"id": 2,
-			"title": "Get your order or your money back",
-			"content": "Shop confidently with eBay Money Back Guarantee.",
-			"action": "Learn more",
-			"url": "/",
-			"image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
-		},
-		{
-			"id": 3,
-			"title": "Get your order or your money back",
-			"content": "Shop confidently with eBay Money Back Guarantee.",
-			"action": "Learn more",
-			"url": "/",
-			"image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
-		}
-	]
+  "banners": [
+    {
+      "id": 1,
+      "title": "Get your order or your money back",
+      "content": "Shop confidently with eBay Money Back Guarantee.",
+      "action": "Learn more",
+      "url": "/",
+      "image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
+    },
+    {
+      "id": 2,
+      "title": "Get your order or your money back",
+      "content": "Shop confidently with eBay Money Back Guarantee.",
+      "action": "Learn more",
+      "url": "/",
+      "image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
+    },
+    {
+      "id": 3,
+      "title": "Get your order or your money back",
+      "content": "Shop confidently with eBay Money Back Guarantee.",
+      "action": "Learn more",
+      "url": "/",
+      "image": "https://i.ebayimg.com/images/g/-9kAAOSwtWpnuFw3/s-l1600.webp"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Motors",
+      "image": "https://placehold.co/500x500?text=M",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "name": "Parts & accessories",
+      "image": "https://placehold.co/500x500",
+      "parentId": 1
+    },
+    {
+      "id": 3,
+      "name": "Cars & trucks",
+      "image": "https://placehold.co/500x500",
+      "parentId": 1
+    },
+    {
+      "id": 4,
+      "name": "Motorcycles",
+      "image": "https://placehold.co/500x500",
+      "parentId": 1
+    },
+    {
+      "id": 5,
+      "name": "Other vehicles",
+      "image": "https://placehold.co/500x500",
+      "parentId": 1
+    },
+    {
+      "id": 6,
+      "name": "Clothing & Accessories",
+      "image": "https://placehold.co/500x500?text=C",
+      "parentId": null
+    },
+    {
+      "id": 7,
+      "name": "Women",
+      "image": "https://placehold.co/500x500",
+      "parentId": 6
+    },
+    {
+      "id": 8,
+      "name": "Men",
+      "image": "https://placehold.co/500x500",
+      "parentId": 6
+    },
+    {
+      "id": 9,
+      "name": "Handbags",
+      "image": "https://placehold.co/500x500",
+      "parentId": 6
+    },
+    {
+      "id": 10,
+      "name": "Collectible Sneakers",
+      "image": "https://placehold.co/500x500",
+      "parentId": 6
+    },
+    {
+      "id": 11,
+      "name": "Sporting goods",
+      "image": "https://placehold.co/500x500?text=S",
+      "parentId": null
+    },
+    {
+      "id": 12,
+      "name": "Hunting Equipment",
+      "image": "https://placehold.co/500x500",
+      "parentId": 11
+    },
+    {
+      "id": 13,
+      "name": "Golf Equipment",
+      "image": "https://placehold.co/500x500",
+      "parentId": 11
+    },
+    {
+      "id": 14,
+      "name": "Outdoor sports",
+      "image": "https://placehold.co/500x500",
+      "parentId": 11
+    },
+    {
+      "id": 15,
+      "name": "Cycling Equipment",
+      "image": "https://placehold.co/500x500",
+      "parentId": 11
+    },
+    {
+      "id": 16,
+      "name": "Electronics",
+      "image": "https://placehold.co/500x500?text=E",
+      "parentId": null
+    },
+    {
+      "id": 17,
+      "name": "Computers, Tablets & Network Hardware",
+      "image": "https://placehold.co/500x500",
+      "parentId": 16
+    },
+    {
+      "id": 18,
+      "name": "Cell Phones, Smart Watches & Accessories",
+      "image": "https://placehold.co/500x500",
+      "parentId": 16
+    },
+    {
+      "id": 19,
+      "name": "Video Games & Consoles",
+      "image": "https://placehold.co/500x500",
+      "parentId": 16
+    },
+    {
+      "id": 20,
+      "name": "Cameras & Photo",
+      "image": "https://placehold.co/500x500",
+      "parentId": 16
+    },
+    {
+      "id": 21,
+      "name": "Business & Industrial",
+      "image": "https://placehold.co/500x500?text=B",
+      "parentId": null
+    },
+    {
+      "id": 22,
+      "name": "Modular & Pre-Fabricated Buildings",
+      "image": "https://placehold.co/500x500",
+      "parentId": 21
+    },
+    {
+      "id": 23,
+      "name": "Test, Measurement & Inspection Equipment",
+      "image": "https://placehold.co/500x500",
+      "parentId": 21
+    },
+    {
+      "id": 24,
+      "name": "Heavy Equipment, Parts & Attachments",
+      "image": "https://placehold.co/500x500",
+      "parentId": 21
+    },
+    {
+      "id": 25,
+      "name": "Restaurant & Food Service",
+      "image": "https://placehold.co/500x500",
+      "parentId": 21
+    },
+    {
+      "id": 26,
+      "name": "Jewelry & Watches",
+      "image": "https://placehold.co/500x500?text=J",
+      "parentId": null
+    },
+    {
+      "id": 27,
+      "name": "Luxury Watches",
+      "image": "https://placehold.co/500x500",
+      "parentId": 26
+    },
+    {
+      "id": 28,
+      "name": "Wristwatches",
+      "image": "https://placehold.co/500x500",
+      "parentId": 26
+    },
+    {
+      "id": 29,
+      "name": "Fashion Jewelry",
+      "image": "https://placehold.co/500x500",
+      "parentId": 26
+    },
+    {
+      "id": 30,
+      "name": "Fine Jewelry",
+      "image": "https://placehold.co/500x500",
+      "parentId": 26
+    },
+    {
+      "id": 31,
+      "name": "Collectibles & Art",
+      "image": "https://placehold.co/500x500?text=C",
+      "parentId": null
+    },
+    {
+      "id": 32,
+      "name": "Trading Cards",
+      "image": "https://placehold.co/500x500",
+      "parentId": 31
+    },
+    {
+      "id": 33,
+      "name": "Collectibles",
+      "image": "https://placehold.co/500x500",
+      "parentId": 31
+    },
+    {
+      "id": 34,
+      "name": "Coins & Paper Money",
+      "image": "https://placehold.co/500x500",
+      "parentId": 31
+    },
+    {
+      "id": 35,
+      "name": "Sports Memorabilia",
+      "image": "https://placehold.co/500x500",
+      "parentId": 31
+    },
+    {
+      "id": 36,
+      "name": "Home & garden",
+      "image": "https://placehold.co/500x500?text=H",
+      "parentId": null
+    },
+    {
+      "id": 37,
+      "name": "Yard, Garden & Outdoor Living Items",
+      "image": "https://placehold.co/500x500?text=Yard+Garden",
+      "parentId": 36
+    },
+    {
+      "id": 38,
+      "name": "Tools & Workshop Equipment",
+      "image": "https://placehold.co/500x500?text=Tools+Workshop",
+      "parentId": 36
+    },
+    {
+      "id": 39,
+      "name": "Home Improvement",
+      "image": "https://placehold.co/500x500?text=Home+Improvement",
+      "parentId": 36
+    },
+    {
+      "id": 40,
+      "name": "Kitchen, Dining & Bar Supplies",
+      "image": "https://placehold.co/500x500?text=Kitchen+Dining+Bar",
+      "parentId": 36
+    },
+    {
+      "id": 41,
+      "name": "Other categories",
+      "image": "https://placehold.co/500x500?text=O",
+      "parentId": null
+    },
+    {
+      "id": 42,
+      "name": "Books, Movies & Music",
+      "image": "https://placehold.co/500x500?text=Books+Movies+Music",
+      "parentId": 41
+    },
+    {
+      "id": 43,
+      "name": "Toys & Hobbies",
+      "image": "https://placehold.co/500x500?text=Toys+Hobbies",
+      "parentId": 41
+    },
+    {
+      "id": 44,
+      "name": "Health & Beauty",
+      "image": "https://placehold.co/500x500?text=Health+Beauty",
+      "parentId": 41
+    },
+    {
+      "id": 45,
+      "name": "Baby Essentials",
+      "image": "https://placehold.co/500x500?text=Baby+Essentials",
+      "parentId": 41
+    }
+  ]
 }

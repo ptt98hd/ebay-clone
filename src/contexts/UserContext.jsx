@@ -1,29 +1,32 @@
-import { createContext, useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { categoryService } from '../services';
+import { createContext, useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import { categoryService } from "../services";
 
 const UserContext = createContext();
 
 export function UserProvider({ children }) {
-	const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState([]);
 
-	useEffect(() => {
-		const fetchCategories = async () => {
-			const data = await categoryService.getCategories();
-			setCategories(data);
-		};
-		fetchCategories();
-	}, []);
+  useEffect(() => {
+    const fetchCategories = async () => {
+      const data = await categoryService.getCategories();
+      setCategories(data);
+    };
+    fetchCategories();
+  }, []);
 
-	return (
-		<UserContext.Provider value={{ categories }}>
-			{children}
-		</UserContext.Provider>
-	);
+  const providers = {
+    categories,
+    setCategories,
+  };
+
+  return (
+    <UserContext.Provider value={providers}>{children}</UserContext.Provider>
+  );
 }
 
 UserProvider.propTypes = {
-	children: PropTypes.node,
+  children: PropTypes.node,
 };
 
 export default UserContext;
