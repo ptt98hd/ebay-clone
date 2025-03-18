@@ -1,6 +1,6 @@
 # EBay Clone
 
-A frontend clone of [eBay](https://www.ebay.com/) website using React.
+A frontend clone of the official [eBay](https://www.ebay.com/) using React.
 
 <div align="center" style="padding: 1rem; background-color: white;">
   <img src="public/ebay.svg" alt="eBay Logo" style="width: 100%;">
@@ -10,14 +10,15 @@ A frontend clone of [eBay](https://www.ebay.com/) website using React.
 
 1. **`NodeJS` & `NPM`**
 
-- `NodeJS` is use to run application server & `NPM` is use to manage application dependencies.
-- If you are not install `NodeJS` & `NPM` go to this [website](https://nodejs.org/en) to download and install them.
+  - `NodeJS` is use to run application server & `NPM` is use to manage application dependencies.
+
+  - If you are not install `NodeJS` & `NPM` go to their official [website](https://nodejs.org/en) to download & install them.
 
 2. **`json-server` install at global**
 
-- `json-server` is use to run some dummy data.
+  - `json-server` is use to provide some dummy data for application.
 
-- If you are not install it, paste following command to your `terminal` and run it.
+  - If you are not install it, paste following command to your `terminal` and run it.
 
 ```sh
 npm install -g json-server
@@ -29,7 +30,7 @@ Following these steps to run this project locally.
 
 ### 1. Clone this repository
 
-Open your `terminal` application and paste command below to clone this repository to your local machine.
+Open your `terminal` and paste the following command to clone this repository.
 
 ```sh
 git clone https://github.com/ptt98hd/ebay-clone.git
@@ -47,17 +48,17 @@ cd ebay-clone
 npm install
 ```
 
-### 4. Run `json-server` & application
+### 4. Run `json-server` & `application`
 
 You need to use 2 separate terminal tabs to run this application:
 
-- Tab 1: `json-server`
+- **Tab 1:** `json-server`
 
 ```sh
 npm run server
 ```
 
-- Tab 2: Application
+- **Tab 2:** `Application`
 
 ```sh
 npm run dev
