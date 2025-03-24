@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
 import UserLayout from '../layouts/UserLayout';
-
 import UserHomePage from '../pages/userPages/UserHomePage';
 import Error404 from '../pages/errorPages/Error404';
+import UserLoginPage from '../pages/userPages/UserLoginPage';
+import AuthLayout from '../layouts/AuthLayout';
+import UserRegisterPage from '../pages/userPages/UserRegisterPage';
 
 const router = createBrowserRouter([
 	{
@@ -17,6 +18,26 @@ const router = createBrowserRouter([
 			{
 				path: '*',
 				element: <Error404 />,
+			},
+		],
+	},
+	{
+		path: '/authentication',
+		element: <AuthLayout />,
+		children: [
+			{
+				index: true,
+				element: <UserLoginPage />,
+			},
+		],
+	},
+	{
+		path: '/register',
+		element: <AuthLayout />,
+		children: [
+			{
+				index: true,
+				element: <UserRegisterPage />,
 			},
 		],
 	},
