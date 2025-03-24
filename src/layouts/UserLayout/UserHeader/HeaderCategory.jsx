@@ -1,9 +1,10 @@
 import React from 'react';
+import { Container, Navbar } from 'react-bootstrap';
 
 function HeaderCategory() {
 	return (
-		<nav className='navbar navbar-expand p-0'>
-			<div className='container'>
+		<Navbar expanded className='p-0'>
+			<Container>
 				<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
 					<li className='nav-item'>
 						<a className='nav-link text-black ps-0'>
@@ -105,8 +106,8 @@ function HeaderCategory() {
 						</a>
 					</li>
 				</ul>
-			</div>
-		</nav>
+			</Container>
+		</Navbar>
 	);
 }
 

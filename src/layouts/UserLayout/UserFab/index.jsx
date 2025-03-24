@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'react';
+import { Button, Modal, Stack } from 'react-bootstrap';
+import './style.css';
 
 function UserFab() {
 	const [isVisible, setIsVisible] = useState(false);
+	const [showHelps, setShowHelps] = useState(false);
 
 	const toggleVisibility = () => {
 		setIsVisible(window.scrollY > 300);
-	};
-
-	const scrollToTop = () => {
-		window.scrollTo({ top: 0, behavior: 'smooth' });
 	};
 
 	useEffect(() => {
@@ -20,88 +19,85 @@ function UserFab() {
 
 	return (
 		<>
-			<div className='vstack gap-3 position-fixed bottom-0 end-0 p-4'>
+			<Stack
+				direction='vertical'
+				gap={3}
+				className='position-fixed bottom-0 end-0 p-4'
+			>
 				{isVisible && (
-					<button
-						type='button'
-						className='btn btn-light rounded-circle border shadow'
+					<Button
+						variant='light'
+						className='rounded-circle border shadow'
 						style={{ width: '3rem', height: '3rem' }}
-						onClick={scrollToTop}
+						onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
 					>
 						<i className='bi bi-chevron-up' />
-					</button>
+					</Button>
 				)}
-				<button
-					type='button'
-					className='btn btn-light rounded-circle border shadow'
+				<Button
+					variant='light'
+					className='rounded-circle border shadow'
 					style={{ width: '3rem', height: '3rem' }}
-					data-bs-toggle='modal'
-					data-bs-target='#helps'
+					onClick={() => setShowHelps(true)}
 				>
 					<i className='bi bi-question' />
-				</button>
-			</div>
-			<div
-				id='helps'
-				className='modal'
-				tabIndex={-1}
-				data-bs-backdrop='static'
-				data-bs-keyboard='false'
+				</Button>
+			</Stack>
+			<Modal
+				show={showHelps}
+				onHide={() => setShowHelps(false)}
+				centered={false}
+				dialogAs={Modal.Dialog}
+				dialogClassName='position-fixed bottom-0 end-0 m-4 shadow custom-dialog'
 			>
-				<div className='modal-dialog position-fixed bottom-0 end-0 m-4 shadow'>
-					<div
-						className='modal-content'
-						style={{ width: '28rem', height: 'calc(100vh - 3rem)' }}
+				<Modal.Header className='modal-header px-4'>
+					<Modal.Title className='modal-title fs-5' id='exampleModalLabel'>
+						Helps
+					</Modal.Title>
+					<Button
+						variant='light'
+						className='btn-close'
+						onClick={() => setShowHelps(false)}
+					/>
+				</Modal.Header>
+				<Modal.Body className='modal-body px-4'>
+					<h4 className='mb-3'>How can we help you?</h4>
+					<p>
+						Find answers to your buying, selling, and account questions, or
+						contact us for more help.
+					</p>
+					<Button
+						as='a'
+						href='/helps'
+						variant='primary'
+						className='rounded-pill w-100 mb-4'
 					>
-						<div className='modal-header px-4'>
-							<h1 className='modal-title fs-5' id='exampleModalLabel'>
-								Helps
-							</h1>
-							<button
-								type='button'
-								className='btn-close'
-								data-bs-dismiss='modal'
-								aria-label='Close'
-							/>
-						</div>
-						<div className='modal-body px-4'>
-							<h4 className='mb-3'>How can we help you?</h4>
-							<p>
-								Find answers to your buying, selling, and account questions, or
-								contact us for more help.
-							</p>
-							<a
-								href='/helps'
-								className='btn btn-primary rounded-pill w-100 mb-4'
-							>
-								Visit Help & Contact
-							</a>
-							<h4 className='mb-3'>Report content</h4>
-							<p>
-								If you find content that may not comply with our policies or
-								applicable law, you can submit a report to help eBay maintain a
-								safe environment for all. <br />
-								<a href='/helps'>Learn more</a>
-							</p>
-							<a
-								href='/helps'
-								className='btn btn-outline-primary rounded-pill w-100 mb-4'
-							>
-								Submit report
-							</a>
-							<h4 className='mb-3'>Let us know</h4>
-							<div className='vstack gap-2'>
-								<a href='' className='text-decoration-none fw-bold fs-5'>
-									Send feedback <i className='bi bi-arrow-right' />
-								</a>
-								<a href='' className='text-decoration-none fw-bold fs-5'>
-									Report a technical problem <i className='bi bi-arrow-right' />
-								</a>
-							</div>
-						</div>
+						Visit Help & Contact
+					</Button>
+					<h4 className='mb-3'>Report content</h4>
+					<p>
+						If you find content that may not comply with our policies or
+						applicable law, you can submit a report to help eBay maintain a safe
+						environment for all. <br />
+						<a href='/helps'>Learn more</a>
+					</p>
+					<a
+						href='/report'
+						className='btn btn-outline-primary rounded-pill w-100 mb-4'
+					>
+						Submit report
+					</a>
+					<h4 className='mb-3'>Let us know</h4>
+					<div className='vstack gap-2'>
+						<a href='' className='text-decoration-none fw-bold fs-5'>
+							Send feedback <i className='bi bi-arrow-right' />
+						</a>
+						<a href='' className='text-decoration-none fw-bold fs-5'>
+							Report a technical problem <i className='bi bi-arrow-right' />
+						</a>
 					</div>
-				</div>
-			</div>
+				</Modal.Body>
+			</Modal>
 		</>
 	);
 }

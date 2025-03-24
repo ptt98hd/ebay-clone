@@ -1,14 +1,15 @@
 import HomeBanner from './HomeBanner';
 import HomeCategories from './HomeCategories';
 import Promotion from './Promotion';
+import { Stack } from 'react-bootstrap';
 
 function UserHomePage() {
 	return (
-		<main className='vstack gap-5'>
+		<Stack direction='vertical' gap={5}>
 			<HomeBanner />
 			<HomeCategories />
 			<Promotion />
-		</main>
+		</Stack>
 	);
 }
 
