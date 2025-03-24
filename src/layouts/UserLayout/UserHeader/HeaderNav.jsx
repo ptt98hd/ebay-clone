@@ -3,6 +3,11 @@ import { Container, Nav, Navbar, Dropdown, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function HeaderNav() {
+	const handleLogout = () => {
+		sessionStorage.removeItem('uid');
+		localStorage.removeItem('uid');
+	};
+
 	return (
 		<Navbar expanded className='p-0 border-bottom'>
 			<Container className='container justify-content-between'>
@@ -57,7 +62,7 @@ function HeaderNav() {
 								<Dropdown.Item>Action</Dropdown.Item>
 								<Dropdown.Item>Another action</Dropdown.Item>
 								<Dropdown.Divider />
-								<Dropdown.Item>Something else here</Dropdown.Item>
+								<Dropdown.Item onClick={handleLogout}>Log Out</Dropdown.Item>
 							</Dropdown.Menu>
 						</Dropdown>
 					</Nav.Item>
