@@ -5,6 +5,7 @@ import Error404 from '../pages/errorPages/Error404';
 import UserLoginPage from '../pages/userPages/UserLoginPage';
 import AuthLayout from '../layouts/AuthLayout';
 import UserRegisterPage from '../pages/userPages/UserRegisterPage';
+import UserShopingPage from '../pages/userPages/UserShopingPage';
 
 const router = createBrowserRouter([
 	{
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
 			{
 				index: true,
 				element: <UserHomePage />,
+			},
+			{
+				path: '/shoping',
+				element: <UserShopingPage />,
 			},
 			{
 				path: '*',

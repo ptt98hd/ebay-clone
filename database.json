@@ -7,6 +7,93 @@
 			"password": "shawn98hd"
 		}
 	],
+	"products": [
+		{
+			"id": 1,
+			"title": "Nike Size 15 US ID Lebron Diamond Collection Neon Green Sneakers Shoes",
+			"price": 1916328.96,
+			"originalPrice": null,
+			"shipping": "Free shipping",
+			"shippingCost": 0,
+			"isSponsored": true,
+			"watchCount": null,
+			"image": "https://placehold.co/150x150?text=p"
+		},
+		{
+			"id": 2,
+			"title": "Men's Zone 93 OG Shoes Glen Rice Collection Charlotte Hornets Teal Purple",
+			"price": 1919144.08,
+			"originalPrice": null,
+			"shipping": "Local Pickup",
+			"shippingCost": 0,
+			"isSponsored": false,
+			"watchCount": 214,
+			"image": "https://placehold.co/150x150?text=p"
+		},
+		{
+			"id": 3,
+			"title": "Nike Sweet Classic High Shoes Mens Size 10.5 Black Casual Basketball Sneakers",
+			"price": 1279344.08,
+			"originalPrice": null,
+			"shipping": "281,256.08 VND shipping",
+			"shippingCost": 281256.08,
+			"isSponsored": false,
+			"watchCount": null,
+			"image": "https://placehold.co/150x150?text=p"
+		},
+		{
+			"id": 4,
+			"title": "Adidas Men's West Ham United Fan Sneakers - Burgundy/Blue",
+			"price": 2303024.08,
+			"originalPrice": null,
+			"shipping": "255,664.08 VND shipping",
+			"shippingCost": 255664.08,
+			"isSponsored": false,
+			"watchCount": null,
+			"image": "https://placehold.co/150x150?text=p"
+		},
+		{
+			"id": 5,
+			"title": "Nike Mens Sweet Classic 318333-229 Brown Casual Shoes Sneakers Size 10",
+			"price": 1093802.08,
+			"originalPrice": 1458488.08,
+			"shipping": "229,048.40 VND shipping",
+			"shippingCost": 229048.4,
+			"isSponsored": true,
+			"watchCount": null,
+			"image": "https://placehold.co/150x150?text=p"
+		},
+		{
+			"id": 6,
+			"title": "NIKE Sweet Classic Men's Size 14 White Black Leather Shoes Sneakers 318333-107",
+			"price": 869872.08,
+			"originalPrice": 1028424.08,
+			"shipping": "Free shipping",
+			"shippingCost": 0,
+			"isSponsored": false,
+			"watchCount": null,
+			"image": "https://placehold.co/150x150?text=p"
+		}
+	],
+	"filters": {
+		"size": [
+			"US Shoe Size",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9",
+			"10",
+			"11",
+			"12",
+			"13",
+			"14",
+			"15"
+		],
+		"color": ["Black", "White", "Blue", "Red", "Green", "Brown", "Multicolor"],
+		"performance": ["Running", "Basketball", "Casual", "Training", "Walking"],
+		"department": ["Men", "Women", "Kids"]
+	},
 	"banners": [
 		{
 			"id": "1",
